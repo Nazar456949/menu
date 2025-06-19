@@ -1,0 +1,89 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+a {
+    font-size: 32px;
+    color: black;
+}
+
+li {
+    list-style-type: none;
+}
+
+a:hover {
+    background-color: rgb(249, 237, 0);
+}
+
+a:active {
+    color:rgb(255, 1, 230);
+}
+
+a:focus { 
+    border: 3px solid rgb(70, 5, 140);
+}
+
+nav {
+    background: rgba(0, 0, 0, 0.766);
+    width: 1100px;
+    height: 80px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.blue {
+    background: rgb(28, 100, 200);
+    padding: 19px 0px 23px 0px;
+    border: 1px solid rgb(28, 100, 200);
+    border-radius: 10px;
+    color: gray;
+    font-weight: 600;
+}
+
+.red1,.red2,.red3 {
+    background: red;
+    padding: 19px 0px 23px 0px;
+    border: 1px solid red;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.red1 {
+    color: gray;
+}
+
+.red2,.red3 {
+    color: white;
+}
+
+.green {
+    background: rgb(27, 188, 27);
+    padding: 19px 0px 23px 0px;
+    order: 1px solid rgb(27, 188, 27);
+    border-radius: 10px;
+    color: white;
+}
+
+.blue:hover {
+    background: rgb(70, 5, 140);
+}
+
+.green:hover {
+    background: rgb(70, 5, 140);
+}
+
+.logo1 {
+    width: 20px;
+}
